@@ -69,7 +69,7 @@ export default function Home() {
       >
 
         <img
-          src="/save-the-date.png"
+          src="/save-the-date.PNG"
           alt="Christian et Justine"
           style={{
             width: "100%",
