@@ -1,0 +1,23 @@
+{
+  "name": "save-the-date-dote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Systeme d'invitations Save the Date avec QR code pour ceremonie de dot",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-guests": "node scripts/generate-guests.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.16",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "qrcode": "1.5.4",
+    "html5-qrcode": "2.3.8"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
